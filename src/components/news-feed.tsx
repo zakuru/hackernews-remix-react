@@ -54,7 +54,9 @@ export function NewsFeed(props: INewsFeedProps): JSX.Element {
   }
 
   const nextPage = pageNumber + 1;
-
+  alert('Hi');
+  document.getElementById('x');
+  window.addEventListener('DOMContentLoaded', () => alert('Loaded'))
   return (
     <tr>
       <td style={{ padding: '0px' }}>
@@ -107,7 +109,7 @@ export function NewsFeed(props: INewsFeedProps): JSX.Element {
                     className="morelink"
                     rel="nofollow"
                   >
-                    More
+                    More x
                   </a>
                 </td>
               </tr>
