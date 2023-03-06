@@ -30,6 +30,7 @@
     "remix"
   ],
   "dependencies": {
+    "jsdom": "^21.1.0",
     "@firebase/app": "0.7.16",
     "@firebase/database": "0.12.5",
     "@remix-run/react": "1.2.0",
